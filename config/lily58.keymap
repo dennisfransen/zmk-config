@@ -58,10 +58,10 @@
             //                                 |      GUI      |    ALT    |    LOWER    |  SPACE  |        | ENTER |   RAISE   |    BSPC   |        GUI       |  
 
             bindings = <
-  &kp ESC      &none     &none         &none       &none      &none                                      &none   &kp KP_NUMLOCK    &kp KP_DIVIDE  &kp KP_MULTIPLY        &kp KP_MINUS  &none
-  &kp TAB   &kp EXCL    &kp AT      &kp HASH  &kp DOLLAR  &kp PRCNT                                      &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9         &kp KP_PLUS  &none
-&kp LSHFT  &kp CARET  &kp AMPS  &kp ASTERISK   &kp TILDE   &kp PIPE                                      &none  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_EQUAL_AS400  &none
-&kp LCTRL   &kp BSLH     &none         &none       &none      &none  &kp C_VOLUME_UP  &kp DEL  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3               &none  &none
+  &kp ESC      &none     &none         &none       &none      &none                                      &none   &kp KP_NUMLOCK    &kp KP_DIVIDE  &kp KP_MULTIPLY         &none  &none
+  &kp TAB   &kp EXCL    &kp AT      &kp HASH  &kp DOLLAR  &kp PRCNT                                      &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &none
+&kp LSHFT  &kp CARET  &kp AMPS  &kp ASTERISK   &kp TILDE   &kp PIPE                                      &none  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_PLUS  &none
+&kp LCTRL   &kp BSLH     &none         &none       &none      &none  &kp C_VOLUME_UP  &kp DEL  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3         &none  &none
                                     &kp LGUI    &kp LALT      &mo 1        &kp SPACE  &kp RET            &mo 2         &kp BSPC         &kp RGUI
             >;
 
