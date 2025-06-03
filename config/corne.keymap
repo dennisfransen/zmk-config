@@ -55,10 +55,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1            &kp N2            &kp N3            &kp N4            &kp N5        &trans    &trans          &trans                &trans     &trans  &trans
-&trans  &kp N6            &kp N7            &kp N8            &kp N9            &kp N0        &kp LEFT  &kp DOWN        &kp UP                &kp RIGHT  &trans  &trans
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &trans    &kp LG(LS(N3))  &kp LG(LS(NUMBER_4))  &trans     &trans  &trans
-                                            &trans            &trans            &kp SPACE     &kp RET   &trans          &trans
+&trans  &kp N1             &kp N2            &kp N3            &kp N4            &kp N5        &trans    &trans          &trans                &trans     &trans  &trans
+&trans  &hm LGUI NUMBER_6  &hm LALT N7       &hm LCTRL N8      &hm LSHIFT N9     &kp N0        &kp LEFT  &kp DOWN        &kp UP                &kp RIGHT  &trans  &trans
+&trans  &kp LG(NUMBER_1)   &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &trans    &kp LG(LS(N3))  &kp LG(LS(NUMBER_4))  &trans     &trans  &trans
+                                             &trans            &trans            &kp SPACE     &kp RET   &trans          &trans
             >;
         };
 
