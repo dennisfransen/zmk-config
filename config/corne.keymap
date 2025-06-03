@@ -63,10 +63,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL   &kp AT         &kp HASH   &kp DLLR              &kp PRCNT                &kp MINUS       &kp EQUAL  &kp LBKT        &kp RBKT         &kp BSLH  &trans
-&trans  &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &trans
-&trans  &trans     &trans         &trans     &trans                &trans                   &trans          &trans     &trans          &trans           &trans    &trans
-                                  &trans     &trans                &kp SPACE                &kp RET         &trans     &trans
+&trans  &kp EXCL   &kp AT         &kp HASH   &kp DLLR              &kp PRCNT                &kp MINUS       &kp EQUAL               &kp LBKT           &kp RBKT                    &kp BSLH               &trans
+&trans  &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp UNDERSCORE  &kp PLUS                &kp LEFT_BRACE     &kp RIGHT_BRACE             &kp PIPE               &trans
+&trans  &trans     &trans         &trans     &trans                &trans                   &trans          &kp LG(LA(LEFT_ARROW))  &kp LA(LG(RIGHT))  &kp LG(LC(LA(LEFT_ARROW)))  &kp LA(LG(LC(RIGHT)))  &trans
+                                  &trans     &trans                &kp SPACE                &kp RET         &trans                  &trans
             >;
         };
     };
